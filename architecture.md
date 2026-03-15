@@ -61,6 +61,7 @@ Whole architecture step by step:
    - If host key verification failed then ssh into jenkins server and change to user jenkins via su - jenkins and do ssh -T git@github.com.
    - Install sonarscanner on jenkins via manage jenkins -> Tools. Name: Sonarscanner.
    - Now System (Global Settings)
-   - Add name: sonarserver, private ip of sonar instance, token from server etc.
+   - Add name: sonarserver, private ip with port of sonar instance, token from server etc. Quality gate optional for passing with bugs >.
    - Add Nexus Artifact Uploader Step and upload to nexus sonatype repository release repo.
+   - Install Build Timestamp plugin to have unique timestamp on artifact to be uploaded.
 
