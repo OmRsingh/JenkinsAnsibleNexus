@@ -62,4 +62,5 @@ Whole architecture step by step:
    - Install sonarscanner on jenkins via manage jenkins -> Tools. Name: Sonarscanner.
    - Now System (Global Settings)
    - Add name: sonarserver, private ip of sonar instance, token from server etc.
+   - Add Nexus Artifact Uploader Step and upload to nexus sonatype repository release repo.
 
