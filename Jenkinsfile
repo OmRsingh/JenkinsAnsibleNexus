@@ -13,7 +13,7 @@ pipeline {
         NEXUS_REPOSITORY= "vprofile-release"
         NEXUS_CREDENTIAL_ID= "nexuslogin"
         ARTVERSION = "${env.BUILD_ID}"
-        SONARSCANNER = "sonarserver"
+        SONARSERVER = "sonarserver"
         SONARSCANNER = "sonarscanner"
     }
 
