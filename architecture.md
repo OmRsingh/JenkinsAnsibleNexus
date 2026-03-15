@@ -58,5 +58,8 @@ Whole architecture step by step:
    - Add nexus properties on environment stage.
    - Generate and add your public key to github.
    - and private key into ssh with username field when creatin pipeline.
-   - If host key verification failed then ssh into jenkins server and do ssh -T git@github.com.
+   - If host key verification failed then ssh into jenkins server and change to user jenkins via su - jenkins and do ssh -T git@github.com.
+   - Install sonarscanner on jenkins via manage jenkins -> Tools. Name: Sonarscanner.
+   - Now System (Global Settings)
+   - Add name: sonarserver, private ip of sonar instance, token from server etc.
 
