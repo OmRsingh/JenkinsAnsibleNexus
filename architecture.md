@@ -54,3 +54,8 @@ Whole architecture step by step:
    - Sonar Username and password
    - Generate Token on sonarqube and add to jenkins credentails.
 
+6. **Pipeline**
+   - Add nexus properties on environment stage.
+   - Generate and add your public key to github.
+   - and private key into ssh with username field when creatin pipeline.
+
