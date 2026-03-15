@@ -58,4 +58,5 @@ Whole architecture step by step:
    - Add nexus properties on environment stage.
    - Generate and add your public key to github.
    - and private key into ssh with username field when creatin pipeline.
+   - If host key verification failed then ssh into jenkins server and do ssh -T git@github.com
 
